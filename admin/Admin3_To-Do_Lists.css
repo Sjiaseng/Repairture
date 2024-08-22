@@ -1,0 +1,293 @@
+.todobg{
+    border: 1px solid;
+    width:1100px;
+    height:475px;
+    position: absolute;
+    top:250px;
+    left:410px;
+    border-color: transparent;
+    overflow-y: scroll;
+}
+
+.todoheader{
+    width:1090px;
+    height:40px;
+    border:1px solid;
+    background: #f6f6f9;
+    position: absolute;
+    top:210px;
+    left:410px;
+    border-color: transparent;
+}
+
+.headtopic{
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: bold;
+    position: absolute;
+    top:5px;
+    left:10px;
+}
+
+#sortselection{
+    position: absolute;
+    top:10px;
+    left:850px;
+}
+
+.addtodo{
+    position: absolute;
+    top:7px;
+    left:1050px;
+    border: 1px solid;
+    width:20px;
+    height:20px;
+    padding-top: 3px;
+    padding-left: 5px;
+    background: #ffffff;
+    border-radius: 10px;
+    border-color: #888888;
+    cursor: pointer;
+}
+
+.todoframe{
+    position: relative;
+    width:1090px;
+    height:30px;
+    border:1px solid;
+    background: white;
+    border-color: #f2f2f2;
+    margin-bottom: 1px;
+}
+
+#checking{
+    position: absolute;
+    width:15px;
+    height:15px;
+    top:4px;
+    left:3px;
+}
+
+.todotopic{
+    position: absolute;
+    left:40px;
+    top:6px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    font-size: 12px;
+}
+
+.tododate{
+    position: absolute;
+    font-weight: bold;
+    font-family: 'Poppins';
+    font-size: 10px;
+    color:#888888;
+    top:8px;
+    left:825px;
+}
+
+#todostar{
+    position: absolute;
+    width:20px;
+    height:20px;
+    top:3px;
+    left:1050px;
+    cursor: pointer;
+    border: 1px solid;
+    padding-left: 5px;
+    padding-top: 3px;
+    background: #575bde;
+    color: white;
+    border-radius: 5px;
+}
+
+#todostar2{
+    position: absolute;
+    width:20px;
+    height:20px;
+    top:3px;
+    left:1050px;
+    cursor: pointer;
+    border: 1px solid;
+    padding-left: 5px;
+    padding-top: 3px;
+    background: #ececee;
+    color: white;
+    border-radius: 5px;
+}
+
+.deletingtodo{
+    color: white;
+    left:755px;
+    top:6px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.deletingtodo:hover{
+    color:red;
+}
+
+#to-do-alert{
+    position: absolute;
+    border: 1px solid;
+    border-color: #888888;
+    width:300px;
+    background-color: white;
+    border-radius: 10px;
+    height:175px;
+    top:275px;
+    left:725px;
+    z-index: 5;
+    display:none;
+}
+
+#to-do-alert-topic{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    position: absolute;
+    top:10px;
+    left:10px;
+}
+
+#to-do-alert-content{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    position: absolute;
+    top:50px;
+    left:60px;
+    text-align: center;
+}
+
+#to-do-purpose{
+    color:red;
+}
+
+#to-do-no{
+    position: absolute;
+    width:75px;
+    height:35px;
+    top:125px;
+    left:50px;
+    background: white;
+    font-weight: bold;
+}
+
+#to-do-yes{
+    position: absolute;
+    width:75px;
+    height:35px;
+    top:125px;
+    left:170px;
+    background: linear-gradient(135deg, #575BDE 25%, #393ED8 100%);
+    border-color: transparent;
+    color:white;
+    font-weight: bold;
+}
+
+#to-do-yes, #to-do-no{
+    cursor: pointer;
+}
+
+#to-do-form{
+    border: 1px solid;
+    position: absolute;
+    width:300px;
+    height:300px;
+    border-radius: 10px;
+    z-index: 4;
+    background: white;
+    border-color: #888888;
+    left:700px;
+    top:250px;
+    display: none;
+}
+
+.to-do-header{
+    font-size: 18px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color:#4a4edb;
+    position: absolute;
+    left:20px;
+}
+
+.to-do-content1{
+    position: absolute;
+    left:25px;
+    top:55px;
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color:#4a4edb;
+}
+
+.to-do-content2{
+    position: absolute;
+    left:25px;
+    top:155px;
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color:#4a4edb;
+}
+
+.todocontent1{
+    position: absolute;
+    top:100px;
+    left:25px;
+    width:225px;
+    height:35px;
+    border-radius: 10px;
+}
+
+.todocontent2{
+    position: absolute;
+    top:200px;
+    left:25px;
+    width:150px;
+    height:25px;
+    border-radius: 10px;
+}
+
+#savetodo{
+    background: linear-gradient(135deg, #575BDE 25%, #393ED8 100%);
+    font-weight: bold;
+    color:white;
+    border-color: transparent;
+    position: absolute;
+    font-size: 14px;
+    border-radius: 10px;
+    top:265px;
+    left:220px;
+
+}
+
+#checkstar{
+    position: absolute;
+    font-size: 12px;
+    font-weight: bold;
+    top:250px;
+    left:30px;
+}
+
+#checkstar2{
+    position: absolute;
+    top:-2px;
+}
+
+#todosubmitbtn{
+    position: absolute;
+    top:8px;
+    left:950px;
+}
+
+#closingform{
+    position: absolute;
+    left:275px;
+    top:10px;
+    cursor: pointer;
+}

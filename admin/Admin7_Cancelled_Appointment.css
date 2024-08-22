@@ -1,0 +1,216 @@
+.appointmentstatusbg{
+    position: absolute;
+    width:1025px;
+    height:525px;
+    top:200px;
+    left:410px;
+    overflow-y: scroll;
+}
+
+.appointmentstatussection{
+    position:relative;
+    background: white;
+    width:1000px;
+    height:200px;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+
+.appointmentstatusbarcancel{
+    border: 1px solid;
+    width:25px;
+    height:200px;
+    position: absolute;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: #ef4444;
+    border-color: transparent;
+}
+
+.appointmentid{
+    font-size: 10px;
+    color: #888;
+    position:absolute;
+    top:10px;
+    left:50px;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+.appointmentdate{
+    font-size: 10px;
+    color: #888;
+    position:absolute;
+    top:10px;
+    left:200px;
+    font-weight: bold;
+    font-family: 'Poppins';
+}
+
+.appointmentstatustopic{
+    font-family: 'Poppins';
+    font-weight: bold;
+    top:30px;
+    position: absolute;
+    left:50px;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.appointmentstatusdetails{
+    position: absolute;
+    top:70px;
+    left:50px;
+    font-family: 'Poppins';
+    font-size: 13px;
+}
+
+#editstatus{
+    border: 1px solid;
+    border-radius: 10px;
+    position: absolute;
+    top:160px;
+    left:50px;
+    width:75px;
+    height:25px;
+    padding-left: 5px;
+    padding-top: 5px;
+    color:#0bb912;
+}
+
+#editstatusicon{
+    position: relative;
+    left:8px;
+    top:1px;
+}
+
+#editdelete{
+    border: 1px solid;
+    border-radius: 10px;
+    position: absolute;
+    top:160px;
+    left:150px;
+    width:100px;
+    height:25px;
+    padding-left: 5px;
+    padding-top: 5px;
+    color:red;
+}
+
+#editdeleteicon{
+    position: relative;
+    left:8px;
+}
+
+.appointmentstatusicons{
+    cursor: pointer;
+}
+
+#viewinfo{
+    border: 1px solid;
+    border-radius: 10px;
+    position: absolute;
+    top:160px;
+    left:275px;
+    width:125px;
+    height:25px;
+    padding-left: 5px;
+    padding-top: 5px;
+    color:blue
+}
+
+#viewinfoicon{
+    position: relative;
+    left:8px;
+    top:1px;
+}
+
+.appointmentstatusdetails2{
+    position: absolute;
+    top:70px;
+    left:555px;
+    font-family: 'Poppins';
+    font-size: 13px;
+}
+
+#viewinfo2{
+    border: 1px solid;
+    border-radius: 10px;
+    position: absolute;
+    top:160px;
+    left:175px;
+    width:125px;
+    height:25px;
+    padding-left: 5px;
+    padding-top: 5px;
+    color:blue
+}
+
+#editdelete2{
+    border: 1px solid;
+    border-radius: 10px;
+    position: absolute;
+    top:160px;
+    left:50px;
+    width:100px;
+    height:25px;
+    padding-left: 5px;
+    padding-top: 5px;
+    color:red;
+}
+
+#pendingicon, #cancelicon, #comingicon, #completedicon{
+    position: absolute;
+    width:10px;
+    height:10px;
+    border-radius: 100%;
+}
+
+#pendingicon{
+    position: absolute;
+    left:80px;
+    top:7px;
+    background: #ffba08;
+}
+
+#cancelicon{
+    position: absolute;
+    top:7px;
+    left:170px;
+    background: #ef4444;
+}
+
+#comingicon{
+    position: absolute;
+    left:290px;
+    top:7px;
+    background: #4c82f7;
+}
+
+#completedicon{
+    position: absolute;
+    left:398px;
+    top:7px;
+    background: #22c55e;
+}
+
+#referencecolor{
+    border: 1px solid;
+    position: absolute;
+    width: 425px;
+    height:20px;
+    border-radius: 25px;
+    padding-top: 5px;
+    text-indent: 25px;
+    background: white;
+    border-color: #888888;
+    font-family: 'Poppins';
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 100px;
+    left:875px;
+    top:150px;
+    word-spacing: 50px;
+    z-index: 1;
+}

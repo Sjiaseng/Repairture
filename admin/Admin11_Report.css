@@ -1,0 +1,276 @@
+#datereport{
+    position:absolute;
+    border:1px solid;
+    width:500px;
+    height:40px;
+    top:125px;
+    left:650px;
+    border-radius: 50px;
+    padding-left: 35px;
+    padding-top: 10px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 20px;
+    background-color: white;
+    border-color: #888888;
+    box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.1);
+}
+
+#reportbutton{
+    text-align: center;
+    width:100px;
+    height:30px;
+    font-size: 15px;
+    background-color: #6366f1;
+    color:white;
+    font-family: 'Poppins';
+    font-weight: bold;
+    border-radius: 25px;
+    border-color: transparent;
+    position:absolute;
+    left:410px;
+    cursor: pointer;
+}
+
+#printbutton{
+    position: absolute;
+    border: 1px solid;
+    border-radius: 25px;
+    width:45px;
+    height:35px;
+    background-color: white;
+    left:1200px;
+    top:135px;
+    box-shadow: 0px 30px 40px rgba(0, 0, 0, 0.1);
+    border-color: grey;
+    cursor: pointer;
+}
+
+#printicon{
+    position: absolute;
+    left:13px;
+    top:8px;
+    font-size: 20px;
+    color:grey;
+}
+
+#printicon:hover{
+    color:black;
+}
+
+#printbutton:hover{
+    color:black;
+}
+
+#reportbox{
+    border:1px solid;
+    width:1100px;
+    height:525px;
+    position: absolute;
+    top:200px;
+    left:410px;
+    border-radius: 20px;
+    background: white;
+    border-color: #888888;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#reportbox::-webkit-scrollbar{
+    width:0px;
+}
+
+#reportheader{
+    position: sticky;
+    border:1px solid;
+    height:50px;
+    width:1100px;
+    left: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #888888;
+    font-family: 'Poppins';
+}
+
+.content8{
+    position: absolute;
+    left:1020px;
+    top:10px;
+    text-align: center;
+}
+
+.content9{
+    position: absolute;
+    left:835px;
+    top:10px;
+    text-align: center;
+}
+
+.content7{
+    position: absolute;
+    left:950px;
+    top:10px;
+    text-align: center;
+}
+
+.content6{
+    position: absolute;
+    left:695px;
+    top:0px;
+    text-align: center;
+}
+
+.content5{
+    position: absolute;
+    left:565px;
+    top:0px;
+    text-align: center;
+}
+
+.content4{
+    position: absolute;
+    left:425px;
+    top:0px;
+    text-align: center;
+}
+
+.content3{
+    position: absolute;
+    left:270px;
+    top:12px;
+    text-align: center;
+}
+
+.content2{
+    position: absolute;
+    left:170px;
+    top:12px;
+    text-align: center;
+}
+
+.content1{
+    position: absolute;
+    text-align: center;
+    left:45px;
+}
+
+.reportcontent{
+    position: relative;
+    top:0px;
+    border: 1px solid;
+    width:1098px;
+    height:50px;
+    background: white;
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: #d9d9d9;
+    font-family: 'Poppins';
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+#report8{
+    position: absolute;
+    top:15px;
+    left:1035px;
+}
+
+#report7{
+    position: absolute;
+    top:15px;
+    left:965px;
+}
+
+#report6{
+    position: absolute;
+    top:15px;
+    left:690px;
+}
+
+#report5{
+    position: absolute;
+    top:5px;
+    left:545px;
+    border: 1px solid;
+    width:100px;
+    text-align: center;
+    font-size: 12px;
+    border-color: transparent;
+}
+
+#report4{
+    position: absolute;
+    top:5px;
+    left:415px;
+    border: 1px solid;
+    width:75px;
+    text-align: center;
+    font-size: 12px;
+    border-color: transparent;
+}
+
+#report3{
+    position: absolute;
+    top:5px;
+    left:275px;
+    border: 1px solid;
+    width:75px;
+    text-align: center;
+    font-size: 12px;
+    border-color: transparent;
+}
+
+#report2{
+    position: absolute;
+    top:6px;
+    left:150px;
+    border: 1px solid;
+    width:75px;
+    text-align: center;
+    font-size: 12px;
+    border-color: transparent;
+}
+
+#report1{
+    position: absolute;
+    top:15px;
+    left:35px;
+    border: 1px solid;
+    width:75px;
+    text-align: center;
+    font-size: 12px;
+    border-color: transparent;
+}
+
+#report9{
+    position: absolute;
+    top:15px;
+    left:830px;
+}
+
+@media print {
+    #reportbox{
+        background-color: white;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        font-size: 20px;
+        line-height: 18px;
+        border-color: transparent
+    }
+
+    .navigator{
+        display:none;
+    }
+
+    #Header{
+        display: none;
+    }
+}

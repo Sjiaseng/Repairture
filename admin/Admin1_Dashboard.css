@@ -1,0 +1,446 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+#status{
+    border: 0.1px solid;
+    height:50px;
+    width:250px;
+    border-radius: 50px;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    position: absolute;
+    top:110px;
+    left: 1200px;
+}
+
+#statuscontent{
+    position: absolute;
+    font-weight: 1000px;
+    top:10px;
+    left: 35px;
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+#selectstatus{
+    border-color: transparent;
+    font-size: 18px;
+    width:110px;
+    cursor: pointer;
+    font-weight: 100;
+    font-family: 'Poppins';
+}
+
+#statusdot{
+    position: absolute;
+    border: 1px solid;
+    height:10px;
+    width:10px;
+    border-radius: 100px;
+    border-color: lightgreen;
+    top:10px;
+    left:155px;
+    border-color: transparent;
+    background-color: lightgreen;
+
+}
+
+#dashboardreport{
+    position:absolute;
+    top: 200px;
+    left: 410px;
+    border: 0.1px solid;
+    width: 685px;
+    height: 280px;
+    background-color: #e5e5e5;
+    border-color: #efefef;
+    border-radius: 50px;
+
+}
+
+#appointmentongoing, #totaluser, #totaltechnician, #totalappointmentlisted{
+    border:1px solid;
+    z-index: 1;
+    width:320px;
+    height:120px;
+    border-radius: 50px;
+    margin:10px;
+    position: absolute;
+    background-color: white;
+    border-color: white;
+    font-family: 'Poppins';
+}
+
+#totaluser{
+    top:0px;
+    left:340px;
+}
+
+#totaltechnician{
+    top:135px;
+}
+
+#totalappointmentlisted{
+    top:135px;
+    left:340px;
+}
+
+#logo1, #logo2, #logo3, #logo4{
+    position: absolute;
+    border: 1px solid;
+    width:40px;
+    height:40px;
+    border-radius: 100px;
+    margin-left: 25px;
+    margin-top: 15px;
+    background-color: white;
+    box-shadow: 0px 3px 8px #888888;
+    border-color: #efefef;
+
+}
+
+.dashboardlogo1{
+    position: absolute;
+    left:8px;
+    top:9px;
+}
+
+.dashboardlogo3{
+    position: absolute;
+    left:11px;
+    top:11px;
+}
+
+.dashboardlogo2{
+    position: absolute;
+    left:10px;
+    top:10px;
+}
+
+.dashboardlogo4{
+    position: absolute;
+    left:12px;
+    top:10px;
+}
+
+.topic{
+    position: absolute;
+    top:12px;
+    left:90px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.innercontent2{
+    position: absolute;
+    left:90px;
+    top:75px;
+    color:#888888;
+}
+
+.innercontent1{
+    position: absolute;
+    left:90px;
+    top:75px;
+    color:#888888;
+}
+
+.innercontent3{
+    position: absolute;
+    left:90px;
+    top:68px;
+    color:#888888;
+}
+
+.graph{
+    border: 1px solid;
+    height:245px;
+    width:525px;
+    position: absolute;
+    top:500px;
+    left: 410px;
+    border-radius: 50px;
+    border-color: white;
+    background-color: white;
+    box-shadow: 0px 2px 8px #888888;
+}
+
+#graphtopic{
+    position: absolute;
+    top:15px;
+    left:30px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Poppins';
+}
+
+#keycolor1, #keycolor2, #keycolor3, #keycolor4{
+    border-radius:100px;
+    border: 1px solid;
+    width:10px;
+    height:10px;
+    position: absolute;
+    left:15px;
+    margin-top: 5px;
+    border-color: transparent;
+}
+
+#keycolor1{
+    background-color:#fdae51;
+}
+
+#keycolor2{
+    background-color: #4c82f7;
+}
+
+#keycolor3{
+    background-color: #f65d5d;
+}
+
+#keycolor4{
+    background-color: #8bff44;
+}
+
+#graphkeys{
+    position: absolute;
+    top:30px;
+    left:350px;
+    font-size: 15px;
+    color:#888888;
+    font-family: 'Poppins';
+}
+
+#chart{
+    position: absolute;
+    left:75px;
+    top:50px;
+    height:175px;
+    width:175px;
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: transparent;
+}
+
+#middlecircle{
+    border: 1px solid;
+    border-radius: 50%;
+    height:50px;
+    width:50px;
+    background-color: white;
+    box-shadow: 0px 2px 8px #888888;
+    border-color: transparent;
+    top:115px;
+    left:140px;
+    position: absolute;
+    z-index: 1;
+}
+
+.wrapper{
+    background:white;
+    width: 250px;
+    height: 275px;
+    border-radius: 10px;
+    position: absolute;
+    left:1175px;
+    top:200px;
+    font-family: 'Poppins';
+    overflow: scroll;
+}
+
+.calendar ul{
+    display:flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 12px;
+    text-indent: -1px;
+}
+
+.wrapper header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header .current-date{
+    font-size: 15px;
+    font-weight: 500;
+    position: absolute;
+    top:-8px;
+    left:45px;
+    word-wrap: nowrap ;
+
+}
+
+.arrow-left{
+    top:5px;
+    left:15px;
+}
+
+.arrow-right{
+    top:5px;
+    left: 165px;
+}
+
+header .calendar-icon span{
+    height:25px;
+    width:25px;
+    position: absolute;
+    background-color: transparent;
+    text-align: center;
+    cursor: pointer;
+    text-indent: 2px;
+    line-height: 30px;
+    border-radius: 50%;
+}
+
+header .calendar-icon span:hover{
+    background: #f2f2f2;
+}
+
+.calendar ul li{
+    width:calc(100%/7);
+    position: relative;
+}
+
+.calendar{
+    position: absolute;
+    top:65px;
+    left:-10px;
+}
+
+
+.calendar .calendar-days li{
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: -3px;
+    z-index: 1;
+}
+
+.calendar .calendar-days{
+    margin-bottom: 0px;
+}
+
+.calendar .calendar-days li::before{
+    position: absolute;
+    content:"";
+    height: 30px;
+    width: 30px;
+    background:transparent;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.calendar-days li:hover::before{
+    background: #f2f2f2;
+}
+
+.innerwrapper{
+    position: absolute;
+    width:200px;
+    height: 35px;
+    border: 1px solid;
+    background: #e9f0ff;
+    border-radius: 25px;
+    border-color: transparent;
+    top:30px;
+    left:25px;
+}
+
+.calendar-topic{
+    position: absolute;
+    font-weight: bold;
+    left:10px;
+    top:5px;
+}
+
+.inactivedate{
+    color:#aaaaaa;
+}
+
+.calendar li.activedate::before{
+    background: linear-gradient(0deg, #6366f1, #8b5cf6, #d946ef);
+}
+
+.activedate{
+    color:white;
+}
+
+.wrapper::-webkit-scrollbar{
+    width:0px;
+}
+
+.dashboardtodobg{
+    position: absolute;
+    width:500px;
+    height:225px;
+    left:950px;
+    top:500px;
+    border:1px solid;
+    border-color: transparent;
+}
+
+.dashboardtodoheader{
+    width:485px;
+    height:25px;
+    border:1px solid;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    background: #f2f2f2;
+    border-color: transparent;
+}
+
+.dashboardtodolist{
+    width:485px;
+    height:25px;
+    border:1px solid;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-family: 'Poppins';
+    font-size: 12px;
+    background: white;
+    font-weight: bold;
+    border-color: transparent;
+    position: relative;
+    text-indent: 25px;
+}
+
+#todostardashboard{
+    position: absolute;
+    width:20px;
+    height:20px;
+    top:3px;
+    left:450px;
+    padding-left: 5px;
+    padding-top: 3px;
+    border: 1px solid;
+    color: white;
+    background:#575bde;
+    border-radius: 5px;
+}
+
+#dashboardtodostar{
+    position:absolute;
+    left:-18px;
+    top:5px;
+}
+
+.dashboardtododate{
+    position: absolute;
+    font-family: 'Poppins';
+    font-size: 10px;
+    color:#888888;
+    left:300px;
+}
+
+.week-day{
+    position:absolute;
+    top:-3px;
+    font-weight: bold;
+    width:195px;
+}

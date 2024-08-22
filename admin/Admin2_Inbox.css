@@ -1,0 +1,120 @@
+.inboxoutbg{
+    position: absolute;
+    width:1050px;
+    height:540px;
+    border:1px solid;
+    top:190px;
+    left:410px;
+    border-radius: 10px;
+    background:white;
+    border-color: transparent;
+}
+
+.inboxheader{
+    border:0.5px solid;
+    width:1050px;
+    height:50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background:whitesmoke;
+    border-color: transparent;
+    font-size: 15px;
+    font-family: 'Poppins';
+    font-weight: bold;
+    color:#888888;
+}
+
+#inboxtopic1{
+    position: absolute;
+    top:15px;
+    left:50px;
+}
+
+#inboxtopic2{
+    position: absolute;
+    top:15px;
+    left:450px;
+}
+
+#inboxtopic3{
+    position: absolute;
+    top:15px;
+    left:800px;
+}
+
+.inboxinbg{
+    border:1px solid;
+    position:absolute;
+    width:1000px;
+    height:485px;
+    border-radius: 10px;
+    overflow-y: scroll;
+    border-color: transparent;
+}
+
+#inboxframe{
+    position:relative;
+    cursor: pointer;
+    margin-left:20px;
+    margin-top: 5px;
+    border:1px solid;
+    width:950px;
+    height:50px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+#inboxppl, #inboxmsg, #inboxdate{
+    position:absolute;
+    font-size: 15px;
+    font-weight: bold;
+    color:#888888;
+}
+
+#inboxppl{
+    top:15px;
+    left:50px;
+}
+
+#inboxmsg{
+    top:15px;
+    left:375px;
+}
+
+#inboxdate{
+    top:15px;
+    left:790px;
+}
+
+#inboxppl2, #inboxmsg2, #inboxdate2{
+    position:absolute;
+    font-size: 15px;
+    font-weight: bold;
+    color:black;
+}
+
+#inboxppl2{
+    top:15px;
+    left:50px;
+}
+
+#inboxmsg2{
+    top:15px;
+    left:375px;
+}
+
+#inboxdate2{
+    top:15px;
+    left:790px;
+}
+
+#readinbox{
+    position: absolute;
+    cursor: pointer;
+    top:170px;
+    left:1350px;
+    font-family: 'Poppins';
+    font-size: 12px;
+    color:#888888;
+    text-decoration: underline;
+}
