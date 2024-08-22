@@ -1,2 +1,2 @@
 # repairture
-Appointment Management System - Admin Section (HTML,CSS,JavaScript,MySQL,PHP)
+Appointment Management System - Admin Section (HTML,CSS,JavaScript,MySQL,PHP) - Admin Section
