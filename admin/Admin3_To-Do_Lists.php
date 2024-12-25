@@ -153,7 +153,7 @@
         ?>
     </div>
 
-    <form id="to-do-form" action="admin_dashboard.php" method="POST">
+    <form id="to-do-form" action="Admin3_To-Do_Lists.php" method="POST">
         <i class='bx bx-x-circle' id="closingform" onclick=closingform()></i>
         <p class="to-do-header"> Creating To-Do Lists </p>
         <p class="to-do-content1"> Subject: </p>
