@@ -13,7 +13,7 @@
         include("admin_conn.php");
     ?>
 
-    <a href="Admin2inboxread"><span id="readinbox">Mark as Read </span></a>
+    <a href="Admin2inboxread.php"><span id="readinbox">Mark as Read </span></a>
 
     <div class="inboxoutbg">
         <div class="inboxheader">
