@@ -35,7 +35,7 @@ Head to the PhpMyAdmin Interface / MySQL Create a Database Named "repairture".
 
 Step 4:
 
-Import repairture.sql into the Generated Database.
+Import repairture.sql into the Generated Database. Enter your Credentials in the admin_conn.php. 
 
 Step 5:
 
