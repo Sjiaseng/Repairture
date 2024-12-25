@@ -17,7 +17,7 @@ Appointment Management System for Elderliers to Seek for Assistance from Volunte
 - XAMPP
 
 ## UI Showcase
-<img src="docs/1.png" width="550" height="300" /> <img src="docs/2.png" width="550" height="300" /> <img src="docs/3.png" width="550" height="300" /> <img src="docs/4.png" width="550" height="300" /> <img src="docs/5.png" width="550" height="300" /> <img src="docs/6.png" width="550" height="300" /> <img src="docs/7.png" width="550" height="300" /> <img src="docs/8.png" width="550" height="300" /> <img src="docs/9.png" width="550" height="300" /> <img src="docs/10.png" width="550" height="300" />
+<img src="docs/1.png" width="600" height="300" /> <img src="docs/2.png" width="600" height="300" /> <img src="docs/3.png" width="600" height="300" /> <img src="docs/4.png" width="600" height="300" /> <img src="docs/5.png" width="600" height="300" /> <img src="docs/6.png" width="600" height="300" /> <img src="docs/7.png" width="600" height="300" /> <img src="docs/8.png" width="600" height="300" /> <img src="docs/9.png" width="600" height="300" /> <img src="docs/10.png" width="600" height="300" />
 
 ## Setup
 Step 1:
