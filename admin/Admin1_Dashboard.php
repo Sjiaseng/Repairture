@@ -35,9 +35,9 @@
     </div>
 
     <div id="dashboardreport">
-        <div id="appointmentongoing"> <span id="logo2"><img src="admin_image/dashboardlogo2" class="dashboardlogo1"></span><span class="topic">Appointments <br> Completed</span><span class="innercontent3"><?php echo $appointmentcount ?> Appointments <br> were completed!</span></div>
+        <div id="appointmentongoing"> <span id="logo2"><img src="admin_image/dashboardlogo2.png" class="dashboardlogo1"></span><span class="topic">Appointments <br> Completed</span><span class="innercontent3"><?php echo $appointmentcount ?> Appointments <br> were completed!</span></div>
         <div id="totaluser"><span id="logo1"><img src="admin_image/dashboardlogo1.png" class="dashboardlogo2"></span><span class="topic">Total Verified <br> Users</span><span class="innercontent1"><?php echo $usercount ?> Users are Verified!</span></div>
-        <div id="totalappointmentlisted"><span id="logo3"><img src="admin_image/dashboardlogo3" class="dashboardlogo3"></span><span class="topic">Total System <br> Admins</span><span class="innercontent2"><?php echo $admincount ?> Admins are Registered!</span></div>
+        <div id="totalappointmentlisted"><span id="logo3"><img src="admin_image/dashboardlogo3.png" class="dashboardlogo3"></span><span class="topic">Total System <br> Admins</span><span class="innercontent2"><?php echo $admincount ?> Admins are Registered!</span></div>
         <div id="totaltechnician"><span id="logo4"><img src="admin_image/dashboardlogo4.png" class="dashboardlogo4"></span><span class="topic">Total Verified <br> Technician</span><span class="innercontent1"><?php echo $techniciancount ?> Technicians are Verified!</span></div>
     </div>
 
